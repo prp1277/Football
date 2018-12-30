@@ -1,25 +1,20 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Football from './football';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
+      <div className="App bg-light">
+        <nav className="navbar navbar-dark bg-secondary">
+          <a className="nav-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
+            <img src={logo} className="navbar-brand" alt="logo" />
           </a>
-        </header>
+        </nav>
+        <body>
+          <Football />
+        </body>
       </div>
     );
   }
