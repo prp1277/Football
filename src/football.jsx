@@ -1,13 +1,13 @@
 import React from "react";
 
 class Football extends React.Component {
-      render() {
-            return (
-                  <div>
+  render() {
+    return (
+      <div>
 
-                  </div>
-            );
-      }
+      </div>
+    );
+  }
 };
 
 export default Football;
