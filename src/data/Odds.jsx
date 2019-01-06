@@ -11,8 +11,10 @@ class Odds extends React.Component {
     };
   }
 
+
   componentDidMount() {
-    const date = `2018-12-30`;
+    const DTNow = Date.toString();
+    const date = DTNow;
     const url = `api.sportradar.us/oddscomparison-rowt1/en/us/sports/sr:sport:16/${date}/schedule.json?api_key=k3d35q5cb9ezmmvxh8bjfxxd`;
     console.log(url);
     fetch(url)

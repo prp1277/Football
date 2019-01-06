@@ -10,10 +10,9 @@ class App extends React.Component {
     this.state = {
       odds1: {
         type: `sr:sport:16`,
-        date: `2018-12-30`,
+        date: `DTNow`,
       },
     }
-    console.log(this.state);
   }
   render() {
     return (
