@@ -1,7 +1,13 @@
 {
-  "name": "football",
-  "version": "0.1.0",
-  "private": true,
+  "name": "to-do",
+  "version": "1.0.0",
+  "description": "react to-do app",
+  "icon": "src/favicon.png",
+  "author": {
+    "name": "Patrick Powell",
+    "email": "prp1277@gmail.com",
+    "url": "https://pat-facts.netlify.com"
+  },
   "dependencies": {
     "body-parser": "^1.18.3",
     "bootstrap": "^4.2.1",
