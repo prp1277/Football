@@ -1,3 +1,5 @@
+# @todo Add api endpoint
+# @body Use [Apiary](https://github.com/apiaryio/polls-api/) poll
 swagger: '2.0'
 info:
   version: '1.0'

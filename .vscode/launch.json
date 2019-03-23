@@ -9,7 +9,7 @@
       "request": "launch",
       "name": "Launch Chrome Port 3000",
       "url": "http://localhost:3000",
-      "webRoot": "${workspaceFolder}/src/index.js",
+      "webRoot": "${workspaceFolder}/public/index.html",
       "smartStep": true,
       "sourceMapPathOverrides": {
         "webpack:///src/*": "${webRoot}/*"
