@@ -3,8 +3,8 @@
 swagger: '2.0'
 info:
   version: '1.0'
-  title: "patrickpowell"
-  description: Polls is a simple API allowing consumers to view polls and vote in them.
+  title: "PatrickPowell"
+  description:
   license:
     name: MIT
     url: https://github.com/apiaryio/polls-api/blob/master/LICENSE
@@ -30,17 +30,17 @@ paths:
               $ref: '#/definitions/Question'
           examples:
             application/json:
-              - question: Favourite programming language?
-                published_at: '2015-08-05T08:40:51.620Z'
+              - question:
+                published_at: '2019-03-25T19:15:00.000Z'
                 choices:
-                  - choice: Swift
-                    votes: 2048
-                  - choice: Python
-                    votes: 1024
-                  - choice: Objective-C
-                    votes: 512
-                  - choice: Ruby
-                    votes: 256
+                  - choice:
+                    votes:
+                  - choice:
+                    votes:
+                  - choice:
+                    votes:
+                  - choice:
+                    votes:
     post:
       description: >-
         You may create your own question using this action. It takes a JSON
@@ -71,6 +71,7 @@ paths:
                     votes: 0
                   - choice: Ruby
                     votes: 0
+# Schema
 definitions:
   Question:
     title: Question
