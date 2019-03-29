@@ -12,8 +12,16 @@ export default function App() {
         <h1>App Header</h1>
       </div>
 
-      <div id="Page" className="container mx-3 my-2 text-center">
+      <div id="Explorer">
+        <div className="btn nav-pills"><i className="fa fas-home"></i>Home</div>
+        {/*
+        // @todo Add collapsible state
+        // @body Bootstrap collapsible nav with hamburger btn
+        */}
+      </div>
 
+      <div id="Page" className="container mx-3 my-2 text-center">
+        <iframe name="Demo" src="demo_iframe_sandbox_origin.htm" sandbox="allow-same-origin allow-scripts" />
       </div>
 
       <div id="Footer" className="navbar navbar-dark bg-dark text-light">
