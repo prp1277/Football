@@ -1,5 +1,4 @@
 import React from 'react';
-import NewsFeed from './ui/NewsFeed.js';
 
 export default class App extends React.Component {
   render() {
@@ -7,7 +6,7 @@ export default class App extends React.Component {
       <div id="App" className="container-fluid">
 
         <div>
-          <NewsFeed />
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
     );
