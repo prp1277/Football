@@ -1,8 +1,8 @@
 {
-  "name": "to-do",
+  "name": "patrick-powell",
   "version": "1.0.0",
-  "description": "react to-do app",
-  "icon": "src/favicon.png",
+  "description": "Patrick Powell's personal app & website",
+  "icon": "./favicon.ico",
   "author": {
     "name": "Patrick Powell",
     "email": "prp1277@gmail.com",
