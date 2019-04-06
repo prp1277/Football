@@ -6,7 +6,7 @@
   "author": {
     "name": "Patrick Powell",
     "email": "prp1277@gmail.com",
-    "url": "https://pat-facts.netlify.com"
+    "url": "https://patrick-powell.com"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
@@ -24,7 +24,7 @@
   "scripts": {
     "start": "react-scripts start",
     "test": "react-scripts test",
-    "build": "babel src/ -d lib/",
+    "build": "react-scripts build",
     "eject": "react-scripts eject",
     "prepublish": "npm run build"
   },
