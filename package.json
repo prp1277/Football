@@ -2,7 +2,7 @@
   "name": "patrick-powell",
   "version": "1.0.0",
   "description": "Patrick Powell's personal app & website",
-  "icon": "./favicon.ico",
+  "icon": "/favicon.ico",
   "author": {
     "name": "Patrick Powell",
     "email": "prp1277@gmail.com",
