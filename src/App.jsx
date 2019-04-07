@@ -1,19 +1,15 @@
 import React, { Component } from 'react';
-import './styles.css';
+import hello from '.netlify/functions/hello.js';
 
-class App extends Component {
-  state = { count: 0 };
-  handleCount(value) {
-    this.setState((prevState) => {
-      return ({ count: prevState.count + value });
-    });
-  }
+// https://socket.io/get-started/chat/
+//https://open.spotify.com/user/12180741876?si=Y2bV_jJzS5uBx70rf7rmHg
+//spotify:user:12180741876
+
+const App = () => ({
   render() {
     return (
-      <div>
-        <iframe id="App" title="App" className="container-fluid bg-danger">{this.state.count}</iframe>
-      </div>
-    )
+      <div>{hello}</div>
+    );
   }
-}
+})
 export default App;
