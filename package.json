@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Patrick Powell's personal app & website",
   "icon": "/favicon.ico",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prp1277/To-Do"
+  },
   "author": {
     "name": "Patrick Powell",
     "email": "prp1277@gmail.com",
