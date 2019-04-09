@@ -11,7 +11,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <iframe id="App" title="App" className="container-fluid bg-danger">{this.state.count}</iframe>
+        <iframe width="933" height="700" src="https://app.powerbi.com/view?r=eyJrIjoiODE2MmRiZDYtZTI2Ny00MzI5LWI5ZjktMzllNDQ5NDBkNDNjIiwidCI6ImY1MmY5MWI0LTc1YzAtNGUwZC04MjkzLTZhYjQ5ZTViZjgwZiJ9" frameborder="0" allowFullScreen="true"></iframe>
       </div>
     )
   }
