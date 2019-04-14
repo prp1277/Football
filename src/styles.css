@@ -1,4 +1,4 @@
-#App {
+.App {
   margin: 0;
   padding: 0;
   --blue: #007bff;
@@ -31,11 +31,11 @@
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
-#header {
+#Header {
   font-family: 'Satisfy', cursive;
 }
 
-#footer {
+#Footer {
   font-family: 'Satisfy', cursive;
   color: #fff;
 }
