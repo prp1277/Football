@@ -4,14 +4,16 @@ about: Report Errors and Issues
 title: "[BUG]"
 labels: bug
 assignees: prp1277
-
 ---
 
-### Describe the bug
+## Describe the bug
+
 A clear and concise description of what the bug is.
 
-### Expected behavior
+## Expected behavior
+
 A clear and concise description of what you expected to happen.
 
-### Screenshots
+## Screenshots
+
 If applicable, add screenshots to help explain your problem.
