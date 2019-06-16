@@ -3,8 +3,8 @@
   "name": "Patrick Powell's Personal Website",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "512x512 64x64 32x32 24x24 16x16",
+      "src": "https://pbs.twimg.com/profile_banners/303310704/1538845016/1500x500",
+      "sizes": "512x512 192x192 64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     }
   ],
