@@ -14,17 +14,6 @@
       "sourceMapPathOverrides": {
         "webpack:///src/*": "${webRoot}/*"
       }
-    },
-    {
-      "type": "chrome",
-      "request": "launch",
-      "name": "Launch Chrome - Gatsby",
-      "url": "http://localhost:8000",
-      "webRoot": "${workspaceFolder}/public/index.html",
-      "smartStep": true,
-      "sourceMapPathOverrides": {
-        "webpack:///src/*": "${webRoot}/*"
-      }
     }
   ],
 }
