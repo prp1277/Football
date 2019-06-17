@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../styles.css';
 //import Playlists from './Playlists.jsx'
 
 class SocialMedia extends Component {
