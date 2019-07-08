@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import SocialMedia from './components/SocialMedia';
+import Disclaimer from './components/Disclaimer';
 import './styles.css';
+import Spotify from './components/spotify';
 
 
 class App extends Component {
@@ -8,11 +10,13 @@ class App extends Component {
     return (
       <div id="App">
 
-        <div id="Header" className="navbar navbar-dark bg-dark justify-content-center">
+        <div id="Header" className="navbar navbar-dark bg-dark text-center">
           <SocialMedia />
         </div>
 
-        <div className="container-fluid col-10 mx-auto">
+        <div><Disclaimer /></div>
+
+        <div id="Page" className="container-fluid col-10 mx-auto">
           <div>
 
             <div className="card my-3 text-center">
@@ -20,15 +24,16 @@ class App extends Component {
                 Alex's Wedding
             </h4>
 
-              <div className="card-img my-2">
+              <div className="card-img mx-2 my-1">
                 <img src="https://avatars0.githubusercontent.com/u/36834793?s=460&v=4" alt="" />
               </div>
 
               <div className="card-body">
-                <p>A Year ago today (6/16/19) Alex got married</p>
+
               </div>
 
             </div>
+            <Spotify></Spotify>
 
           </div>
 

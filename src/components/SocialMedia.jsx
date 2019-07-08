@@ -6,11 +6,6 @@ class SocialMedia extends Component {
   render() {
     return (
       <div id="SocialMedia">
-        <div id="disclaimer" className="row">
-          <div className="container-fluid">
-            <p>We and our partners use cookies to personalize your experience, to show you ads based on your interests, and for measurement and analytics purposes. By using our website and our services, you agree to our use of cookies as described in our Cookie Policy.</p>
-          </div>
-        </div>
         <div className="row">
           <div className="container-fluid py-2">
             <button id="linkedin" className="btn btn-primary mx-2"><a className="text-light" href="https://bit.ly/powell-linkedin" >LinkedIn</a></button>
@@ -20,9 +15,7 @@ class SocialMedia extends Component {
             <button id="spotify" className="btn btn-primary mx-2"><a className="text-light" href="http://bit.ly/Powell-Spotify" >Spotify</a></button>
             <button id="reddit" className="btn btn-primary mx-2"><a className="text-light" href="http://bit.ly/Powell-Reddit" >Reddit</a></button>
           </div>
-
         </div>
-
       </div>
     );
   }
