@@ -46,6 +46,6 @@
     "url": "https://github.com/prp1277/patrick-powell/issues"
   },
   "homepage": "https://github.com/prp1277/patrick-powell#readme",
-  "main": "./build/index.js",
+  "main": "./build/index.html",
   "license": "MIT"
 }
