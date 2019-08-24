@@ -26,9 +26,11 @@ class App extends Component {
 
             <div className="card-body">
               <h3>There isn't much to see here yet.</h3>
+              <p>For now, take a look at what I've been up to on GitHub.</p>
             </div>
-
           </div>
+          <br />
+          <iframe title="Powerbi" width="800" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiNzNmZjc2ODEtMDE3OC00NTQxLWIzZmItMWYyNDk4Y2MxYzVlIiwidCI6ImM5ZjZiMDRkLWZlNDYtNGJhMS1iZDNlLWE4ODU5MzIyNjJkOSIsImMiOjJ9" frameborder="0" allowFullScreen="true"></iframe>
 
         </div>
 
