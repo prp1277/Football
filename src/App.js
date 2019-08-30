@@ -30,7 +30,9 @@ class App extends Component {
             </div>
           </div>
           <br />
-          <iframe title="Powerbi" width="800" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiNzNmZjc2ODEtMDE3OC00NTQxLWIzZmItMWYyNDk4Y2MxYzVlIiwidCI6ImM5ZjZiMDRkLWZlNDYtNGJhMS1iZDNlLWE4ODU5MzIyNjJkOSIsImMiOjJ9" frameborder="0" allowFullScreen="true"></iframe>
+          <center>
+            <iframe title="powerbi" width="933" height="700" src="https://app.powerbi.com/view?r=eyJrIjoiNzNmZjc2ODEtMDE3OC00NTQxLWIzZmItMWYyNDk4Y2MxYzVlIiwidCI6ImM5ZjZiMDRkLWZlNDYtNGJhMS1iZDNlLWE4ODU5MzIyNjJkOSIsImMiOjJ9" frameborder="0" allowFullScreen="true"></iframe>
+          </center>
 
         </div>
 
