@@ -1,11 +1,11 @@
 import React from 'react';
 import SocialMedia from './components/SocialMedia';
 import Disclaimer from './components/Disclaimer';
+import Form from './components/inputForm'
 import './styles.css';
-import nlmForm from './components/nlmForm';
 
 
-function App() {
+const App = () => {
   return (
     <div id="root">
 
@@ -16,9 +16,9 @@ function App() {
 
       <div id="Page" className="container col-10">
 
-        <div id="disclaimer" className="my-2 shadow-sm"><Disclaimer /></div>
+        <Disclaimer />
 
-        <div className="card my-3 text-center shadow-sm">
+        <div className="card bg-light my-3 py-2 text-center shadow-sm">
           <h1>Hi there</h1>
           <p>My name is Patrick Powell and this is my website.</p>
 
@@ -27,10 +27,9 @@ function App() {
             <iframe title="powerbi" width="933" height="700" src="https://app.powerbi.com/view?r=eyJrIjoiNzNmZjc2ODEtMDE3OC00NTQxLWIzZmItMWYyNDk4Y2MxYzVlIiwidCI6ImM5ZjZiMDRkLWZlNDYtNGJhMS1iZDNlLWE4ODU5MzIyNjJkOSIsImMiOjJ9"></iframe>
           </div> */}
 
-          <div className="card-body">
-            <nlmForm />
-          </div>
+          <Form />
         </div>
+
 
         <br />
 
