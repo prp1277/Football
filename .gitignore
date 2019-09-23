@@ -12,6 +12,7 @@
 *.env
 *.rest
 *.http
+*.ps1
 
 
 # User-specific files (MonoDevelop/Xamarin Studio)
